@@ -1,0 +1,5 @@
+1- run the prerequisites file
+2- open a new terminal and execute `run_listener`
+3- open a new terminal and execute `run_project`
+4- schedule the file named cron_file_5_min to run every 5 min
+5- schedule the file named cron_file_1_hour to run every hour

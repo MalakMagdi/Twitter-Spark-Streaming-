@@ -1,0 +1,4 @@
+curl -XPOST localhost:8887/run-5-min-batch
+hive -f ~/itversity-material/hive_create_landing.hql
+hive -f ~/itversity-material/create_dimensions_no_trans.hql
+hive -f ~/itversity-material/landing_to_raw_no_merge.hql
